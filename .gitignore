@@ -1,0 +1,27 @@
+﻿# Frontend dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+
+# Local database configuration containing credentials
+backend/src/main/resources/application.properties
+
+# Java build output
+backend/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs and temporary files
+*.log
